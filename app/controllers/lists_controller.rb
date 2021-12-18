@@ -29,10 +29,10 @@ class ListsController < ApplicationController
     redirect_to list_path(@list)
   end
 
-  def destroy
-    @list.destroy
-    redirect_to list_path
-  end
+  # def destroy
+  #   @list.destroy
+  #   redirect_to list_path
+  # end
 
   private
 
